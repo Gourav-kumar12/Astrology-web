@@ -216,7 +216,7 @@ body {
 
 /* ─── HERO ─── */
 .hero {
-  background-image: url('assest/bg.png');
+  background-image: url('./assets/bg.png');
   background-size: cover;
   background-position: center;
   display: grid;
