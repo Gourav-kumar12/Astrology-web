@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Prrophecy – Decoding Destiny with Science</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  Any Queries? 💬 <a href="tel:+919065705311">Call / WhatsApp on: +91 9065705311</a>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <a href="#" class="logo">
+    <img src="assest/logo.png"alt="The Prophecy logo" class="logo-img" />
+    <div class="logo-text">
+      <div class="brand">THE PRROPHECY</div>
+      <div class="tagline">Decoding Destiny with Science</div>
+    </div>
+  </a>
+
+  <div class="nav-stats">
+    <div class="nav-stat">
+      <span class="nav-stat-icon">👥</span>
+      <div><strong>19+</strong><br><small>Years of <br> Experience</small></div>
+    </div>
+    <a href="#courses" class="nav-icon-item"><span>📚</span><span>Courses</span></a>
+    <a href="#products" class="nav-icon-item"><span>🛍️</span><span>Shop</span></a>
+    <a href="#calc" class="nav-icon-item"><span>🔢</span><span>Calculator</span></a>
+    <a href="#faq" class="nav-icon-item"><span>❓</span><span>Ask</span></a>
+  </div>
+
+  <!-- Hamburger (mobile) -->
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <a href="tel:+919065705311" class="btn-talk">📞 Talk to Astrologer</a>
+</nav>
+
+<!-- NAV MENU -->
+<div class="nav-menu" id="navMenu">
+  <a href="#about">About Dr. Deobdut Choudharry</a>
+  <a href="#services">Our Services ▾</a>
+  <a href="#courses">Astrology Courses ▾</a>
+  <a href="#contact">Book Consultations</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#blogs">Blogs</a>
+  <a href="#contact">Contact Us</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left animate-fade-left">
+    <div class="hero-badge">🌟 Welcome to The Prrophecy</div>
+    <h1>Unlock Clarity Through<br><em>Palmistry &amp; Numerology</em></h1>
+    <p>Get accurate guidance from Dr. Deobdut Choudharry, a trusted expert with 19+ years of experience.</p>
+    <a href="#contact" class="btn-contact">📞 Contact Us Today →</a>
+  </div>
+
+  <div class="hero-person">
+    <div class="hero-person-placeholder">
+      <img src="assest/profile.png" alt="Dr. Deobdut Choudharry"
+           onerror="this.parentElement.innerHTML='<span style=font-size:140px;line-height:1>🧑‍💼</span>';" />
+    </div>
+    <div class="hero-symbols">
+      <span class="hero-sym" style="top:10%;left:8%">♈</span>
+      <span class="hero-sym" style="top:30%;left:5%;animation-delay:1s">♉</span>
+      <span class="hero-sym" style="top:55%;left:10%;animation-delay:2s">♊</span>
+      <span class="hero-sym" style="top:70%;left:6%;animation-delay:0.5s">🌙</span>
+      <span class="hero-sym" style="top:15%;right:8%;animation-delay:1.5s">⭐</span>
+      <span class="hero-sym" style="top:40%;right:5%;animation-delay:0.8s">♌</span>
+      <span class="hero-sym" style="top:65%;right:8%;animation-delay:2.5s">🌟</span>
+    </div>
+  </div>
+</section>
+
+<!-- NUMEROLOGY CALCULATOR -->
+<div id="calc" style="background:linear-gradient(135deg,#8B0000 0%,#5a0000 100%);padding:48px 60px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+  <div style="color:white;">
+    <span class="section-label" style="color:var(--gold-light);">Quick Tool</span>
+    <h2 class="shimmer-gold" style="font-family:'Cinzel',serif;font-size:36px;font-weight:700;margin-bottom:16px;">Numerology<br>Calculator</h2>
+    <p style="font-size:14px;color:rgba(255,255,255,0.75);line-height:1.8;">Discover the hidden meaning behind your birth numbers and name vibrations.</p>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+    <div class="calc-numbers">
+      <div class="calc-num">0</div><div class="calc-num">1</div><div class="calc-num">2</div>
+      <div class="calc-num">3</div><div class="calc-num">4</div><div class="calc-num">5</div>
+      <div class="calc-num">6</div><div class="calc-num">7</div><div class="calc-num">8</div>
+    </div>
+    <button class="btn-calc" onclick="alert('Numerology Calculator coming soon!')">Calculate Now →</button>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="section-header reveal">
+    <span class="section-label">Our Best</span>
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-desc">At The Prophecy, we offer authentic, result-oriented learning and guidance in ancient occult sciences to help you understand your life path with clarity.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal d1">
+      <div class="service-card-img-placeholder">🔮</div>
+      <div class="service-info">
+        <h3>Palmistry Consultations</h3>
+        <p>Get accurate insights into your life, health, career, relationships, and destiny through expert palm readings.</p>
+        <button class="btn-contact" onclick="location.href='#contact'">Read More →</button>
+      </div>
+    </div>
+    <div class="service-card reveal d2">
+      <div class="service-card-img-placeholder">🔢</div>
+      <div class="service-info">
+        <h3>Numerology Analysis</h3>
+        <p>Discover the power of your numbers and receive practical remedies to balance energies and improve life outcomes.</p>
+        <button class="btn-contact" onclick="location.href='#contact'">→ Read More</button>
+      </div>
+    </div>
+    <div class="service-card reveal d3">
+      <div class="service-card-img-placeholder">✋</div>
+      <div class="service-info">
+        <h3>Palmistry &amp; Numerology</h3>
+        <p>Learn these ancient sciences with clarity, logic, and hands-on training directly from Dr. Deobdut Choudharry.</p>
+        <button class="btn-contact" onclick="location.href='#contact'">→ Read More</button>
+      </div>
+    </div>
+    <div class="service-card reveal d4">
+      <div class="service-card-img-placeholder">🌌</div>
+      <div class="service-info">
+        <h3>Personal Life Guidance</h3>
+        <p>Receive customized advice and easy-to-follow remedies for emotional balance, decision-making, and spiritual growth.</p>
+        <button class="btn-contact" onclick="location.href='#contact'">→ Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="about-img-wrap reveal-left">
+    <div class="about-img-bg">
+      <img src="assest/degree.png" alt="Dr. Deobdut Choudharry"
+           onerror="this.parentElement.innerHTML='<span style=font-size:180px;line-height:1>🎓</span>';" />
+    </div>
+    <div class="about-stats">
+      <div class="stat-bubble">
+        <span class="num">19+</span>
+        <span class="lbl">Years<br>Exp.</span>
+      </div>
+      <div class="stat-bubble">
+        <span class="num">60+</span>
+        <span class="lbl">Students<br>Trained</span>
+      </div>
+      <div class="stat-bubble">
+        <span class="num">99%</span>
+        <span class="lbl">Positive<br>Results</span>
+      </div>
+    </div>
+  </div>
+  <div class="about-content reveal-right">
+    <span class="section-label">About Us</span>
+    <h2>About Dr. Deobdut Choudharry</h2>
+    <p>I am Dr. Deobdut Choudharry, a Palmistry and Numerology teacher with more than 19 years of experience in the field of occult sciences. I have completed my PhD from Maharishi College of Vedic Astrology, where I wrote my thesis on the Lifeline. Over the years, I have dedicated my work to understanding the deeper meanings hidden in our hands, numbers, and energies.</p>
+    <p>I am the founder and mentor of "The Prophecy", where I teach students the true art of Palmistry and Numerology with clarity, logic, and spiritual understanding. Many students learn under my guidance, and I also share practical remedies that help people balance their life, mind, and destiny.</p>
+    <a href="#contact" class="btn-know">→ Know About Us</a>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses-section" id="courses">
+  <div class="courses-list reveal-left">
+    <div class="course-item d1">
+      <div class="course-thumb course-thumb-1">✋</div>
+      <div class="course-meta">
+        <h4>Recorded Palmistry Course</h4>
+        <div class="course-price">₹ 30,000/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="course-item d2">
+      <div class="course-thumb course-thumb-2">🔢</div>
+      <div class="course-meta">
+        <h4>Complete Numerology Program</h4>
+        <div class="course-price">₹ 10,000/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="course-item d3">
+      <div class="course-thumb course-thumb-3">🌟</div>
+      <div class="course-meta">
+        <h4>Adv. Master Class of Palmistry</h4>
+        <div class="course-price">₹ 15,000/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+  </div>
+  <div class="courses-content reveal-right">
+    <span class="section-label">Courses</span>
+    <h2>Our Top Courses</h2>
+    <p>Discover powerful, easy-to-understand courses designed to help you master the true science of Palmistry and Numerology. Learn directly under Dr. Deobdut Choudharry with clear explanations, practical techniques, and real-life applications.</p>
+    <div class="courses-btns">
+      <a href="#contact" class="btn-register">🎧 Registration for Live classes</a>
+      <a href="#courses" class="btn-view-all">▶ View All Our Courses</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / GET IN TOUCH -->
+<section class="contact-section" id="contact">
+  <div class="contact-form-wrap reveal-left">
+    <h2>Get in Touch</h2>
+    <div class="form-row">
+      <div class="form-group"><input type="text" placeholder="Your Name" /></div>
+      <div class="form-group"><textarea placeholder="Share Your Concern Here…"></textarea></div>
+    </div>
+    <div class="form-group"><input type="email" placeholder="Your Email Address" /></div>
+    <div class="form-group"><input type="tel" placeholder="Your Phone Number" /></div>
+    <button class="btn-share" onclick="alert('Message sent! We will contact you soon.')">→ SHARE NOW!</button>
+  </div>
+  <div class="contact-img-wrap reveal-right">
+    <div class="astro-icon">🧘</div>
+    <h3>Astrology Services</h3>
+    <p>Your Worries Ends Here</p>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="why-section">
+  <div class="section-header reveal">
+    <span class="section-label">Why Dr. Deobdut</span>
+    <h2 class="section-title" style="color:white;">Why Should You Choose Dr. Deobdut?</h2>
+    <p class="section-desc">At The Prophecy, we combine deep ancient knowledge with modern practical understanding to help you learn Palmistry and Numerology with clarity, confidence, and purpose.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal d1">
+      <div class="why-icon">🏅</div>
+      <h3>19+ Years of Expertise</h3>
+      <p>Learn directly from Dr. Deobdut Choudharry, a seasoned Palmistry &amp; Numerology expert with nearly two decades of real-world experience.</p>
+    </div>
+    <div class="why-card reveal d2">
+      <div class="why-icon">📖</div>
+      <h3>Clear &amp; Practical Teaching Style</h3>
+      <p>Complex concepts are explained in simple, logical, and easy-to-apply methods so students understand and remember effortlessly.</p>
+    </div>
+    <div class="why-card reveal d3">
+      <div class="why-icon">🔮</div>
+      <h3>Authentic Vedic Knowledge</h3>
+      <p>Backed by a PhD in Vedic Astrology, the teachings are rooted in genuine principles—not myths or shortcuts.</p>
+    </div>
+    <div class="why-card reveal d4">
+      <div class="why-icon">🛡️</div>
+      <h3>Life-Changing Guidance</h3>
+      <p>Students receive practical remedies and personalised insights that create real positive shifts in life, energy, and destiny.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+  <div class="section-header reveal">
+    <span class="section-label">Products</span>
+    <h2 class="section-title">Premium Astrology Books &amp; Life Remedies</h2>
+    <p class="section-desc">Explore authentic books and effective remedies designed by Dr. Deobdut Choudharry to help you understand yourself better and bring balance into your life.</p>
+  </div>
+  <div class="products-tabs">
+    <button class="tab-btn active" onclick="switchTab(this,'books')">Astrology Books</button>
+    <button class="tab-btn" onclick="switchTab(this,'remedies')">Astrology Remedies</button>
+  </div>
+  <div class="products-grid" id="products-grid">
+    <div class="product-card reveal d1">
+      <div class="product-img-placeholder p-c1">📘</div>
+      <div class="product-info">
+        <h4>The Little Book of Astrology</h4>
+        <div class="product-price">₹ 300/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="product-card reveal d2">
+      <div class="product-img-placeholder p-c2">🌞</div>
+      <div class="product-info">
+        <h4>Astrology for the Soul</h4>
+        <div class="product-price">₹ 500/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="product-card reveal d3">
+      <div class="product-img-placeholder p-c3">⭐</div>
+      <div class="product-info">
+        <h4>The Astrology</h4>
+        <div class="product-price">₹ 200/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+    <div class="product-card reveal d4">
+      <div class="product-img-placeholder p-c4">✨</div>
+      <div class="product-info">
+        <h4>The Hidden Secrets</h4>
+        <div class="product-price">₹ 1,000/–</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PALM READING -->
+<section class="palm-section">
+  <div class="palm-inner">
+    <div class="section-header reveal">
+      <span class="section-label">Our Expertise</span>
+      <h2 class="section-title">Palm Reading</h2>
+      <p class="section-desc">Palm reading, also called palmistry, is the practice of understanding a person's personality, emotions, strengths, and tendencies by looking at the lines, mounts, and shapes of the hand.</p>
+    </div>
+    <div class="palm-layout">
+      <div class="palm-lines">
+        <div class="palm-line reveal-left d1">
+          <div class="palm-line-icon">💓</div>
+          <div class="palm-line-text">
+            <h4>Life Line – Take Care of Your Energy</h4>
+            <p>Focus on building routines that protect your physical and emotional energy.</p>
+          </div>
+        </div>
+        <div class="palm-line reveal-left d2">
+          <div class="palm-line-icon">❤️</div>
+          <div class="palm-line-text">
+            <h4>Heart Line – Communicate Clearly</h4>
+            <p>Whether in love, friendship, or work, express your feelings honestly.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="palm-hand reveal">🧘</div>
+
+      <div class="palm-lines">
+        <div class="palm-line right reveal-right d1">
+          <div class="palm-line-icon">🧠</div>
+          <div class="palm-line-text">
+            <h4>Head Line – Trust Your Ideas and Skills</h4>
+            <p>You have strong personal insights. Start acting on your ideas instead of overthinking.</p>
+          </div>
+        </div>
+        <div class="palm-line right reveal-right d2">
+          <div class="palm-line-icon">🔮</div>
+          <div class="palm-line-text">
+            <h4>Fate Line – Be Ready for New Opportunities</h4>
+            <p>Life may bring new chances—career, learning, or personal growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="palm-cta">
+      <a href="tel:+919065705311" class="btn-palm-talk">📞 Talk to Astrologer</a>
+    </div>
+  </div>
+</section>
+
+<!-- COSMIC CTA -->
+<section class="cosmic-cta">
+  <div class="reveal">
+    <h2>Let's Shape Your Cosmic Journey!</h2>
+    <p>Ready to align your life with the stars? Connect with us today for personalized astrological guidance crafted to illuminate your path.</p>
+    <div class="cosmic-btns">
+      <a href="https://wa.me/919065705311" class="btn-whatsapp">💬 Chat with Astrologer</a>
+      <a href="tel:+919065705311" class="btn-phone">📞 Talk to Astrologer</a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="section-header reveal">
+    <span class="section-label">Client Reviews</span>
+    <h2 class="section-title">Testimonial</h2>
+  </div>
+  <div class="testimonials-track">
+    <div class="testimonial-card reveal d1">
+      <p>Thank you! Can you please share what you liked? I would like to keep that up in the future as well. Really thanks for the workshop I really learnt and enjoyed all the sessions. Thanks guru ji Radhe Radhe 🙏</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">👤</div>
+        <div>
+          <div class="reviewer-name">Anil Kumar</div>
+          <div class="stars">★★★☆☆</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal d2">
+      <p>There are so many things which I liked. I have learnt so many new and exciting things about Palmistry which I didn't know before and it helped me to get rid of misconceptions about Palmistry. Thanks!</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">👤</div>
+        <div>
+          <div class="reviewer-name">Anil Kumar</div>
+          <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal d3">
+      <p>New knowledge learned — I feel more confident about my destiny and future path. I can keep that up in the future. Highly recommend Dr. Deobdut's sessions to everyone!</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">👤</div>
+        <div>
+          <div class="reviewer-name">Anil Kumar</div>
+          <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="section-header reveal">
+    <span class="section-label">FAQ's</span>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-item reveal d1">
+      <div class="faq-q" onclick="toggleFAQ(this)">What services does Dr. Deobdut Choudharry offer?<span class="faq-icon">+</span></div>
+      <div class="faq-a">We provide Palmistry consultations, Numerology sessions, professional courses, practical remedies, and personalised life guidance.</div>
+    </div>
+    <div class="faq-item reveal d2">
+      <div class="faq-q" onclick="toggleFAQ(this)">What remedies do you provide?<span class="faq-icon">+</span></div>
+      <div class="faq-a">We provide personalised remedies based on palm reading and numerology analysis, including gemstone recommendations, number-based corrections, and lifestyle adjustments.</div>
+    </div>
+    <div class="faq-item reveal d3">
+      <div class="faq-q" onclick="toggleFAQ(this)">How accurate are Palmistry and Numerology readings?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Our readings are based on 19+ years of experience and PhD-level research. Accuracy depends on honest sharing of information and openness to guidance.</div>
+    </div>
+    <div class="faq-item reveal d4">
+      <div class="faq-q" onclick="toggleFAQ(this)">How can I book a consultation?<span class="faq-icon">+</span></div>
+      <div class="faq-a">You can book a consultation by calling/WhatsApp at +91 9065705311, or by filling the contact form on this page.</div>
+    </div>
+    <div class="faq-item reveal d1">
+      <div class="faq-q" onclick="toggleFAQ(this)">Do you offer online classes?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Yes! We offer both live online and recorded courses that you can access from anywhere in the world.</div>
+    </div>
+    <div class="faq-item reveal d2">
+      <div class="faq-q" onclick="toggleFAQ(this)">Do you provide certificates after completing the course?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Yes, students receive a certificate of completion after successfully finishing any of our accredited courses.</div>
+    </div>
+    <div class="faq-item reveal d3">
+      <div class="faq-q" onclick="toggleFAQ(this)">Can beginners join your courses?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Absolutely! Our courses are designed for all levels — from complete beginners to advanced practitioners.</div>
+    </div>
+    <div class="faq-item reveal d4">
+      <div class="faq-q" onclick="toggleFAQ(this)">What should I prepare before a consultation?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Just have your date of birth, full name, and clear photos of both palms ready. An open mind helps too!</div>
+    </div>
+    <div class="faq-item reveal d1">
+      <div class="faq-q" onclick="toggleFAQ(this)">How long are the courses?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Course durations range from a few weeks to several months depending on the level — beginner, intermediate, or advanced.</div>
+    </div>
+    <div class="faq-item reveal d2">
+      <div class="faq-q" onclick="toggleFAQ(this)">Are your consultations and courses result-oriented?<span class="faq-icon">+</span></div>
+      <div class="faq-a">Yes — 99% of our students and clients report positive outcomes in their careers, relationships, and personal growth.</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item reveal d1">
+    <div class="stat-icon-circle">🏛️</div>
+    <span><strong>Founded</strong></span><span>in 2005</span>
+  </div>
+  <div class="stat-item reveal d2">
+    <div class="stat-icon-circle">😊</div>
+    <span><strong>90+</strong></span><span>Happy Clients</span>
+  </div>
+  <div class="stat-item reveal d3">
+    <div class="stat-icon-circle">🌍</div>
+    <span><strong>Students From</strong></span><span>20+ Countries</span>
+  </div>
+  <div class="stat-item reveal d4">
+    <div class="stat-icon-circle">✅</div>
+    <span><strong>25+</strong></span><span>Premium Products</span>
+  </div>
+  <div class="stat-item reveal d5">
+    <div class="stat-icon-circle">🕐</div>
+    <span><strong>24/7</strong></span><span>Services</span>
+  </div>
+  <div class="stat-item reveal d6">
+    <div class="stat-icon-circle">🎓</div>
+    <span><strong>60+</strong></span><span>Students Trained</span>
+  </div>
+</div>
+
+<!-- UNLOCK BANNER -->
+<div class="unlock-banner">
+  <div class="unlock-text">
+    <h2>Unlock Your Destiny Today!</h2>
+    <p>Learn Palmistry &amp; Numerology from Dr. Deobdut Choudharry.</p>
+  </div>
+  <a href="tel:+919065705311" class="btn-talk" style="animation:none;">📞 Talk to Astrologer</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Palmistry Consultations</a></li>
+        <li><a href="#">Numerology Analysis</a></li>
+        <li><a href="#">Palmistry &amp; Numerology</a></li>
+        <li><a href="#">Personal Life Guidance</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Palmistry Course</a></li>
+        <li><a href="#">Numerology Course</a></li>
+        <li><a href="#">Advanced Occult Science Programs</a></li>
+        <li><a href="#">Live &amp; Demo Classes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Dr. Deobdut Choudharry</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Ask Question</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <div class="contact-info">
+        <div class="contact-row"><span class="ci-icon">📞</span><span>Phone:<br>+91 9065705311</span></div>
+        <div class="contact-row"><span class="ci-icon">✉️</span><span>Email:<br>deobdutchoudharry@gmail.com</span></div>
+        <div class="contact-row"><span class="ci-icon">📍</span><span>Address:<br>Tagore Road, Ramgarh Cantt–829122 (Jharkhand)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom-grid">
+    <div class="footer-calc">
+      <h4>Calculator</h4>
+      <ul>
+        <li><a href="#">Birth Chart / Kundli Calculator</a></li>
+        <li><a href="#">Rashi Calculator</a></li>
+        <li><a href="#">Sun Sign Calculator</a></li>
+        <li><a href="#">Rising Sign Calculator</a></li>
+        <li><a href="#">Nakshatra Calculator</a></li>
+        <li><a href="#">Dasha / Mahadasha Calculator</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="newsletter-box">
+        <h4>Join our Newsletters Today!</h4>
+        <input class="newsletter-input" type="email" placeholder="Enter Email I'd" />
+        <button class="btn-subscribe" onclick="alert('Subscribed successfully!')">Subscribe Now! →</button>
+      </div>
+      <div class="social-links">
+        <span style="font-size:12px;color:#666;">Follow Us on Social Media :</span>
+        <a href="#" class="social-link s-fb"><span>f</span></a>
+        <a href="#" class="social-link s-ig"><span>📷</span></a>
+        <a href="#" class="social-link s-li"><span>in</span></a>
+        <a href="#" class="social-link s-yt"><span>▶</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copy">
+    Copyright © 2025 Design by <strong>Battersea Web Expert</strong>
+  </div>
+</footer>
+
+<script>
+  /* ── Navbar scroll shadow ── */
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  /* ── Hamburger toggle ── */
+  const hamburger = document.getElementById('hamburger');
+  const navMenu   = document.getElementById('navMenu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    navMenu.classList.toggle('open');
+  });
+  /* Close menu when a link is clicked */
+  navMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      navMenu.classList.remove('open');
+    });
+  });
+  /* Close on outside click */
+  document.addEventListener('click', e => {
+    if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+      hamburger.classList.remove('open');
+      navMenu.classList.remove('open');
+    }
+  });
+
+  /* ── Scroll reveal ── */
+  const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const observer  = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => observer.observe(el));
+
+  /* ── FAQ accordion ── */
+  function toggleFAQ(btn) {
+    const item   = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  /* ── Product tabs ── */
+  const booksData = [
+    { icon:'📘', bg:'p-c1', name:'The Little Book of Astrology', price:'₹ 300/–' },
+    { icon:'🌞', bg:'p-c2', name:'Astrology for the Soul',       price:'₹ 500/–' },
+    { icon:'⭐', bg:'p-c3', name:'The Astrology',                price:'₹ 200/–' },
+    { icon:'✨', bg:'p-c4', name:'The Hidden Secrets',           price:'₹ 1,000/–' },
+  ];
+  const remediesData = [
+    { icon:'💎', bg:'p-c1', name:'Gemstone Remedy Kit',     price:'₹ 1,500/–' },
+    { icon:'🕯️', bg:'p-c2', name:'Energy Balancing Pack',  price:'₹ 800/–'   },
+    { icon:'🔯', bg:'p-c3', name:'Yantra Set',              price:'₹ 1,200/–' },
+    { icon:'🌿', bg:'p-c4', name:'Herbal Remedy Bundle',    price:'₹ 600/–'   },
+  ];
+  function switchTab(btn, type) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const data = type === 'books' ? booksData : remediesData;
+    const grid = document.getElementById('products-grid');
+    grid.style.opacity = '0';
+    setTimeout(() => {
+      grid.innerHTML = data.map(p => `
+        <div class="product-card">
+          <div class="product-img-placeholder ${p.bg}">${p.icon}</div>
+          <div class="product-info">
+            <h4>${p.name}</h4>
+            <div class="product-price">${p.price}</div>
+            <div class="stars">★★★★☆</div>
+          </div>
+        </div>`).join('');
+      grid.style.transition = 'opacity 0.4s';
+      grid.style.opacity    = '1';
+    }, 200);
+  }
+
+  /* ── Stagger hero on load ── */
+  document.querySelectorAll('.animate-fade-left').forEach((el, i) => {
+    el.style.animationDelay = (i * 0.15) + 's';
+  });
+
+  /* ── Responsive: calc section grid fix ── */
+  function fixCalc() {
+    const calc = document.getElementById('calc');
+    if (!calc) return;
+    if (window.innerWidth <= 480) {
+      calc.style.gridTemplateColumns = '1fr';
+      calc.style.padding = '32px 18px';
+      calc.style.gap = '24px';
+    } else if (window.innerWidth <= 768) {
+      calc.style.gridTemplateColumns = '1fr';
+      calc.style.padding = '40px 24px';
+      calc.style.gap = '32px';
+    } else {
+      calc.style.gridTemplateColumns = '1fr 1fr';
+      calc.style.padding = '48px 60px';
+      calc.style.gap = '60px';
+    }
+  }
+  fixCalc();
+  window.addEventListener('resize', fixCalc);
+</script>
+</body>
+</html>
